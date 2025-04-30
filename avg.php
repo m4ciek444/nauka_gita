@@ -1,5 +1,3 @@
-<?php
-function srednia($a, $b) {
-    return ($a + $b) / 2;
+function sredniaWazona($a, $b, $wagaA, $wagaB) {
+    return ($a * $wagaA + $b * $wagaB) / ($wagaA + $wagaB);
 }
-?>
